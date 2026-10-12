@@ -1,0 +1,29 @@
+# Compilación
+build/
+!build/icono.ico
+bin/
+out/
+dist/
+*.class
+*.jar
+*.apk
+*.aab
+*.zip
+
+# Gradle
+.gradle/
+.kotlin/
+local.properties
+
+# Claves privadas de firma (nunca subir)
+firma/
+*.jks
+*.keystore
+
+# IDEs
+.idea/
+.settings/
+.classpath
+.project
+*.iml
+*.lnk

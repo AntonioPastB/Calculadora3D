@@ -1,0 +1,60 @@
+CALCULADORA DE IMPRESIÓN 3D
+===========================
+
+Calcula el precio de venta de una impresión 3D (material, electricidad,
+amortización de la impresora, fallos, mano de obra, margen e IVA) y guarda
+un historial de cálculos con nombre e imagen.
+
+No hace falta instalar Java: el programa ya lo incluye.
+
+
+CÓMO EMPEZAR
+------------
+1. Si has recibido el .zip por correo o lo has descargado de Internet:
+   clic derecho sobre el .zip > Propiedades > marca "Desbloquear" > Aceptar.
+   (Si no aparece la casilla "Desbloquear", no hace falta.)
+
+2. Clic derecho sobre el .zip > "Extraer todo..." y elige dónde dejar la
+   carpeta (por ejemplo, en Documentos). No lo abras desde dentro del .zip.
+
+3. Dentro de la carpeta, haz doble clic en:
+
+       Crear acceso directo en el escritorio.bat
+
+   Aparecerá en el escritorio el icono "Calculadora 3D". A partir de ahora
+   abre el programa desde ese icono.
+
+   También puedes abrirlo directamente con  Calculadora3D.bat
+
+
+SI WINDOWS BLOQUEA EL PROGRAMA
+------------------------------
+- "Windows protegió su PC": pulsa "Más información" y luego
+  "Ejecutar de todas formas".
+
+- "Una directiva de Control de aplicaciones bloqueó este archivo" o
+  "Smart App Control bloqueó...": no hiciste el paso 1. Borra la carpeta
+  extraída, desbloquea el .zip (paso 1) y vuelve a extraerlo.
+
+
+DÓNDE SE GUARDAN TUS DATOS
+--------------------------
+Cada usuario de Windows tiene sus propios datos en:
+
+    C:\Users\<tu usuario>\.calculadora3d\
+
+  - configuracion.properties   últimos valores introducidos
+  - historial.csv              cálculos guardados (se puede abrir con Excel)
+  - imagenes\                  imágenes de los cálculos
+
+Para hacer una copia de seguridad o pasar tus datos a otro PC, copia esa
+carpeta entera. Al actualizar el programa a una versión nueva, los datos
+se conservan: basta con sustituir la carpeta del programa.
+
+Si mueves la carpeta del programa a otro sitio, vuelve a ejecutar
+"Crear acceso directo en el escritorio.bat".
+
+
+REQUISITOS
+----------
+Windows 10 u 11 de 64 bits.
